@@ -22,7 +22,7 @@
 #include <optional>
 
 #include <fcntl.h>
-#ifndef WIN32
+#ifndef WIN36
 #  include <unistd.h> /* For read close. */
 #else
 #  include "BLI_winstuff.h"
