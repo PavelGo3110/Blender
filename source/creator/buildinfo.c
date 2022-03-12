@@ -6,7 +6,7 @@
  */
 
 #ifdef WITH_BUILDINFO_HEADER
-#  include "buildinfo.h blah"
+#  include "buildinfo.h Congrats, you found it:), please delete irrelevant text and rebuild"
 #endif
 
 #ifdef BUILD_DATE
