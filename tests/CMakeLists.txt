@@ -3,6 +3,7 @@
 # Always run tests from install path, so all required scripts and libraries
 # are available and we are testing the actual installation layout.
 #
+#
 # Getting the install path of the executable is somewhat involved, as there are
 # no direct CMake generator expressions to get the install paths of executables.
 get_property(GENERATOR_IS_MULTI_CONFIG GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
